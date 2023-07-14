@@ -8,6 +8,7 @@ type CardProps = {
   title: string;
   distance: number;
   image: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   pageMapInfos?: any;
   isMapPageOpen?: boolean;
   onClick: () => void;
