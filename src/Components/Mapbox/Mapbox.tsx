@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 import Map, { Marker, NavigationControl } from "react-map-gl";
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import data from "../../data/runningData.json";
 import { DataType } from "../../data/dataType";
 
@@ -41,13 +41,14 @@ const MarkerNumber = styled.div<{ isStart?: boolean }>`
 const Mapbox = ({ className, pageMapInfos }: MapBoxProps) => {
   console.log(pageMapInfos);
 
-  const [lng, setLng] = useState(pageMapInfos.fields.geo_point_2d[0]);
-  const [lat, setLat] = useState(pageMapInfos.fields.geo_point_2d[1]);
-  const [zoom, setZoom] = useState(15);
+  const lng = pageMapInfos.fields.geo_point_2d[0];
+  const lat = pageMapInfos.fields.geo_point_2d[1];
+  const zoom = 15;
 
   const markers = useMemo(
     () =>
       pageMapInfos.fields.geo_shape.coordinates.map(
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         (coordinates: any, index: number) => (
           <Marker
             key={index}
