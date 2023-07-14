@@ -4,7 +4,6 @@ import Container from "../../Styles/Layout/Container";
 import TextBody from "../../Styles/Fonts/TextBody";
 import { DataType } from "../../data/dataType";
 import Mapbox from "../Mapbox/Mapbox";
-import Subtitle from "../../Styles/Fonts/Subtitle";
 
 type PageMapProps = {
   className?: string;
