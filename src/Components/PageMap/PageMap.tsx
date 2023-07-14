@@ -8,6 +8,7 @@ import Mapbox from "../Mapbox/Mapbox";
 type PageMapProps = {
   className?: string;
   pageMapInfos: DataType;
+  closePageCard: ()=>void;
 };
 
 const StyledPageMap = styled.div`
@@ -51,12 +52,12 @@ const NumeralInformationsContainer = styled.div`
 
 const NumeralInformation = styled.div``;
 
-const PageMap = ({ className, pageMapInfos }: PageMapProps) => {
+const PageMap = ({ className, pageMapInfos, closePageCard }: PageMapProps) => {
 
   return (
     <StyledPageMap className={className}>
       <Container>
-        <BackToMaps>
+        <BackToMaps onClick={closePageCard}>
           <TextBody>{"<-"}</TextBody>
           <TextBody>Retour aux parcours</TextBody>
         </BackToMaps>

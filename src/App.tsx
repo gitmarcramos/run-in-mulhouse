@@ -4,6 +4,7 @@ import Subtitle from "./Styles/Fonts/Subtitle";
 import Container from "./Styles/Layout/Container";
 import GlobalStyles from "./Styles/globalStyles";
 import data from "./data/runningData.json";
+import { useState } from "react";
 
 const Cards = styled.div`
   display: flex;
@@ -13,6 +14,26 @@ const Cards = styled.div`
 `;
 
 const App = () => {
+  const [isCardOpen, setIsCardOpen] = useState(false);
+  const handleCardOpen = () => {
+    setIsCardOpen(!isCardOpen);
+  };
+
+  const [choosenCardIndex, setChoosenCardIndex] = useState(0);
+  const handleCardIndex = (index: number) => {
+    setChoosenCardIndex(index);
+  };
+
+  const handleOpen = (index: number) => {
+    handleCardIndex(index);
+    handleCardOpen();
+  };
+
+  const closePageCard = () => {
+    setIsCardOpen(false);
+    setChoosenCardIndex(0);
+  };
+
   return (
     <>
       <GlobalStyles />
@@ -26,7 +47,10 @@ const App = () => {
                 title={item.fields.nom_circui}
                 distance={item.fields.longueur}
                 image={`../../images/rim-${index + 1}.jpg`}
-                pageMapInfos={data[4]}
+                pageMapInfos={data[choosenCardIndex]}
+                isMapPageOpen={isCardOpen}
+                onClick={() => handleOpen(index)}
+                closePageCard={closePageCard}
               />
             );
           })}

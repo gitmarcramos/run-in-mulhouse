@@ -3,13 +3,15 @@ import Title from "../../Styles/Fonts/Title";
 import Subtitle from "../../Styles/Fonts/Subtitle";
 import PageMap from "../PageMap/PageMap";
 
-type CardType = {
+type CardProps = {
   className?: string;
   title: string;
   distance: number;
   image: string;
   pageMapInfos?: any;
   isMapPageOpen?: boolean;
+  onClick: () => void;
+  closePageCard: () => void;
 };
 
 const StyledCard = styled.div<{ image: string }>`
@@ -45,17 +47,21 @@ const Card = ({
   distance,
   image,
   pageMapInfos,
-  isMapPageOpen = true,
-}: CardType) => {
+  isMapPageOpen,
+  onClick,
+  closePageCard,
+}: CardProps) => {
   return (
     <>
-      <StyledCard className={className} image={image}>
+      <StyledCard className={className} image={image} onClick={onClick}>
         <CardsInfos>
           <Title isCardTitle>{title}</Title>
           <Subtitle isCardSubtitle>{distance} km</Subtitle>
         </CardsInfos>
       </StyledCard>
-      {isMapPageOpen && <PageMap pageMapInfos={pageMapInfos}  />}
+      {isMapPageOpen && (
+        <PageMap pageMapInfos={pageMapInfos} closePageCard={closePageCard} />
+      )}
     </>
   );
 };
