@@ -12,7 +12,9 @@ type MapBoxProps = {
 };
 
 const MapContainer = styled.div`
-  height: 100vh;
+  height: 90svh;
+  border-radius: 8px;
+  overflow: hidden;
 `;
 
 const MarkerNumber = styled.div<{ isStart?: boolean }>`
@@ -75,6 +77,7 @@ const Mapbox = ({ className, pageMapInfos }: MapBoxProps) => {
           latitude: lat,
           zoom: zoom,
         }}
+        scrollZoom={false}
         pitch={0}
         mapStyle="mapbox://styles/mapbox/streets-v12"
       >

@@ -4,6 +4,7 @@ import Container from "../../Styles/Layout/Container";
 import TextBody from "../../Styles/Fonts/TextBody";
 import { DataType } from "../../data/dataType";
 import Mapbox from "../Mapbox/Mapbox";
+import Subtitle from "../../Styles/Fonts/Subtitle";
 
 type PageMapProps = {
   className?: string;
@@ -46,12 +47,16 @@ const Description = styled.div`
   gap: 8px;
 `;
 
-const NumeralInformationsContainer = styled.div`
+const SpaceBetweenContainer = styled.div`
   display: flex;
   justify-content: space-between;
 `;
 
 const NumeralInformation = styled.div``;
+
+const CardFooter = styled.div`
+  padding: 16px 0;
+`;
 
 const PageMap = ({ className, pageMapInfos, closePageCard }: PageMapProps) => {
   return (
@@ -66,7 +71,7 @@ const PageMap = ({ className, pageMapInfos, closePageCard }: PageMapProps) => {
             <Title uppercase>{pageMapInfos.fields.nom_circui}</Title>
             <TextBody grey>{pageMapInfos.fields.commentair}</TextBody>
           </Description>
-          <NumeralInformationsContainer>
+          <SpaceBetweenContainer>
             <NumeralInformation>
               <TextBody bold>Distance</TextBody>
               <Title>{pageMapInfos.fields.longueur} km</Title>
@@ -75,9 +80,35 @@ const PageMap = ({ className, pageMapInfos, closePageCard }: PageMapProps) => {
               <TextBody bold>Temps moyen</TextBody>
               <Title>XXXX minutes</Title>
             </NumeralInformation>
-          </NumeralInformationsContainer>
+          </SpaceBetweenContainer>
         </MapInfos>
         <Mapbox pageMapInfos={pageMapInfos} />
+        <CardFooter>
+          <SpaceBetweenContainer>
+            <TextBody>Afficher les points d'eau</TextBody>
+            <div className="toggleWrapper">
+              <input
+                type="checkbox"
+                name="toggle1"
+                className="mobileToggle"
+                id="toggle1"
+              />
+              <label htmlFor="toggle1"></label>
+            </div>
+          </SpaceBetweenContainer>
+          <SpaceBetweenContainer>
+            <TextBody>Afficher les lampadaires</TextBody>
+            <div className="toggleWrapper">
+              <input
+                type="checkbox"
+                name="toggle1"
+                className="mobileToggle"
+                id="toggle1"
+              />
+              <label htmlFor="toggle1"></label>
+            </div>
+          </SpaceBetweenContainer>
+        </CardFooter>
       </Container>
     </StyledPageMap>
   );
