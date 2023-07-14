@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "impact";
+  src: url("../src/assets/fonts/impactreg.woff") format("woff");
+}
+
+@font-face {
+  font-family: "inter-bold";
+  src: url("../src/assets/fonts/Inter-Bold.woff") format("woff"),
+    url("../src/assets/fonts/Inter-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "inter-semi";
+  src: url("../src/assets/fonts/Inter-SemiBold.woff") format("woff"),
+    url("../src/assets/fonts/Inter-SemiBold.woff2") format("woff2");
+}
