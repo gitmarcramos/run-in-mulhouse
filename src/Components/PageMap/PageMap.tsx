@@ -8,7 +8,7 @@ import Mapbox from "../Mapbox/Mapbox";
 type PageMapProps = {
   className?: string;
   pageMapInfos: DataType;
-  closePageCard: ()=>void;
+  closePageCard: () => void;
 };
 
 const StyledPageMap = styled.div`
@@ -19,6 +19,7 @@ const StyledPageMap = styled.div`
 `;
 
 const BackToMaps = styled.button`
+  color: black;
   display: flex;
   gap: 4px;
   padding: 8px 8px 8px 0;
@@ -53,7 +54,6 @@ const NumeralInformationsContainer = styled.div`
 const NumeralInformation = styled.div``;
 
 const PageMap = ({ className, pageMapInfos, closePageCard }: PageMapProps) => {
-
   return (
     <StyledPageMap className={className}>
       <Container>
@@ -77,7 +77,7 @@ const PageMap = ({ className, pageMapInfos, closePageCard }: PageMapProps) => {
             </NumeralInformation>
           </NumeralInformationsContainer>
         </MapInfos>
-        <Mapbox pageMapInfos={pageMapInfos}/>
+        <Mapbox pageMapInfos={pageMapInfos} />
       </Container>
     </StyledPageMap>
   );

@@ -4,7 +4,11 @@ import Subtitle from "./Styles/Fonts/Subtitle";
 import Container from "./Styles/Layout/Container";
 import GlobalStyles from "./Styles/globalStyles";
 import data from "./data/runningData.json";
-import { useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
+import { useWindowWidth } from "./hooks/useWindowWidth";
+import NotMobilePage from "./Components/NotMobilePage/NotMobilePage";
+import IntroPage from "./Components/IntroPage/IntroPage";
+import gsap from "gsap";
 
 const Cards = styled.div`
   display: flex;
@@ -34,28 +38,48 @@ const App = () => {
     setChoosenCardIndex(0);
   };
 
+  const isMobile = useWindowWidth();
+
+  const introRef = useRef(null);
+  useLayoutEffect(() => {
+    introRef &&
+      gsap.to(introRef.current, {
+        delay: 1.5,
+        duration: 1,
+        autoAlpha: 0,
+        ease: "Power4.easeOut",
+      });
+  }, []);
+
   return (
     <>
       <GlobalStyles />
-      <Container>
-        <Subtitle>Où souhaitez-vous courir ?</Subtitle>
-        <Cards>
-          {data.map((item, index) => {
-            return (
-              <Card
-                key={item.fields.nom_circui}
-                title={item.fields.nom_circui}
-                distance={item.fields.longueur}
-                image={`../../images/rim-${index + 1}.jpg`}
-                pageMapInfos={data[choosenCardIndex]}
-                isMapPageOpen={isCardOpen}
-                onClick={() => handleOpen(index)}
-                closePageCard={closePageCard}
-              />
-            );
-          })}
-        </Cards>
-      </Container>
+      {isMobile ? (
+        <>
+          <IntroPage ref={introRef} />
+          <Container>
+            <Subtitle>Où souhaitez-vous courir ?</Subtitle>
+            <Cards>
+              {data.map((item, index) => {
+                return (
+                  <Card
+                    key={item.fields.nom_circui}
+                    title={item.fields.nom_circui}
+                    distance={item.fields.longueur}
+                    image={`../../images/rim-${index + 1}.jpg`}
+                    pageMapInfos={data[choosenCardIndex]}
+                    isMapPageOpen={isCardOpen}
+                    onClick={() => handleOpen(index)}
+                    closePageCard={closePageCard}
+                  />
+                );
+              })}
+            </Cards>
+          </Container>
+        </>
+      ) : (
+        <NotMobilePage />
+      )}
     </>
   );
 };
