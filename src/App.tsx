@@ -3,12 +3,13 @@ import Card from "./Components/Card/Card";
 import Subtitle from "./Styles/Fonts/Subtitle";
 import Container from "./Styles/Layout/Container";
 import GlobalStyles from "./Styles/globalStyles";
-import data from "./data/runningData.json";
+import runningData from "./data/runningData.json";
 import { useLayoutEffect, useRef, useState } from "react";
 import { useWindowWidth } from "./hooks/useWindowWidth";
 import NotMobilePage from "./Components/NotMobilePage/NotMobilePage";
 import IntroPage from "./Components/IntroPage/IntroPage";
 import gsap from "gsap";
+import PageMap from "./Components/PageMap/PageMap";
 
 const Cards = styled.div`
   display: flex;
@@ -60,21 +61,26 @@ const App = () => {
           <Container>
             <Subtitle>Où souhaitez-vous courir ?</Subtitle>
             <Cards>
-              {data.map((item, index) => {
+              {runningData.map((item, index) => {
                 return (
                   <Card
                     key={item.fields.nom_circui}
                     title={item.fields.nom_circui}
                     distance={item.fields.longueur}
                     image={`../../images/rim-${index + 1}.jpg`}
-                    pageMapInfos={data[choosenCardIndex]}
                     isMapPageOpen={isCardOpen}
                     onClick={() => handleOpen(index)}
-                    closePageCard={closePageCard}
                   />
                 );
               })}
             </Cards>
+            {isCardOpen && (
+              <PageMap
+                pageMapInfos={choosenCardIndex}
+                closePageCard={closePageCard}
+                data={runningData}
+              />
+            )}
           </Container>
         </>
       ) : (

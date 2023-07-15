@@ -3,7 +3,7 @@ import Map, { Marker, NavigationControl } from "react-map-gl";
 import { useMemo } from "react";
 import { DataType } from "../../data/runningDataType";
 import waterData from "../../data/waterData.json";
-import drop from "../../assets/icons/drop.png"
+import drop from "../../assets/icons/water.svg"
 
 const token = import.meta.env.VITE_MAP;
 

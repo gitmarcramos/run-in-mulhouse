@@ -1,18 +1,14 @@
 import styled from "styled-components";
 import Title from "../../Styles/Fonts/Title";
 import Subtitle from "../../Styles/Fonts/Subtitle";
-import PageMap from "../PageMap/PageMap";
 
 type CardProps = {
   className?: string;
   title: string;
   distance: number;
   image: string;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  pageMapInfos?: any;
   isMapPageOpen?: boolean;
   onClick: () => void;
-  closePageCard: () => void;
 };
 
 const StyledCard = styled.div<{ image: string }>`
@@ -42,16 +38,7 @@ const CardsInfos = styled.div`
   gap: 8px;
 `;
 
-const Card = ({
-  className,
-  title,
-  distance,
-  image,
-  pageMapInfos,
-  isMapPageOpen,
-  onClick,
-  closePageCard,
-}: CardProps) => {
+const Card = ({ className, title, distance, image, onClick }: CardProps) => {
   return (
     <>
       <StyledCard className={className} image={image} onClick={onClick}>
@@ -60,9 +47,6 @@ const Card = ({
           <Subtitle isCardSubtitle>{distance} km</Subtitle>
         </CardsInfos>
       </StyledCard>
-      {isMapPageOpen && (
-        <PageMap pageMapInfos={pageMapInfos} closePageCard={closePageCard} />
-      )}
     </>
   );
 };

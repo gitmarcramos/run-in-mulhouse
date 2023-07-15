@@ -2,15 +2,16 @@ import styled from "styled-components";
 import Title from "../../Styles/Fonts/Title";
 import Container from "../../Styles/Layout/Container";
 import TextBody from "../../Styles/Fonts/TextBody";
-import { DataType } from "../../data/runningDataType";
 import Mapbox from "../Mapbox/Mapbox";
 import Toggle from "../Toggle/Toggle";
 import { useState } from "react";
 
 type PageMapProps = {
   className?: string;
-  pageMapInfos: DataType;
+  pageMapInfos: number;
   closePageCard: () => void;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  data: any
 };
 
 const StyledPageMap = styled.div`
@@ -18,6 +19,7 @@ const StyledPageMap = styled.div`
   inset: 0;
   background-color: white;
   overflow-y: scroll;
+  z-index: 10;
 `;
 
 const BackToMaps = styled.button`
@@ -62,7 +64,7 @@ const CardFooter = styled.div`
   gap: 8px;
 `;
 
-const PageMap = ({ className, pageMapInfos, closePageCard }: PageMapProps) => {
+const PageMap = ({ className, pageMapInfos, data, closePageCard }: PageMapProps) => {
   const [isWaterMap, setIsWaterMap] = useState(false);
   const [isLightMap, setIsLightMap] = useState(false);
 
@@ -70,19 +72,17 @@ const PageMap = ({ className, pageMapInfos, closePageCard }: PageMapProps) => {
     if (toggleId === "water") {
       setIsWaterMap(!isWaterMap);
       console.log("water", isWaterMap);
-      
     }
 
     if (toggleId === "light") {
       setIsLightMap(!isLightMap);
       console.log("light", isLightMap);
-      
     }
   };
 
   const handleWater = () => {
     setIsWaterMap(!isWaterMap);
-  }
+  };
 
   return (
     <StyledPageMap className={className}>
@@ -93,13 +93,13 @@ const PageMap = ({ className, pageMapInfos, closePageCard }: PageMapProps) => {
         </BackToMaps>
         <MapInfos>
           <Description>
-            <Title uppercase>{pageMapInfos.fields.nom_circui}</Title>
-            <TextBody grey>{pageMapInfos.fields.commentair}</TextBody>
+            <Title uppercase>{data[pageMapInfos].fields.nom_circui}</Title>
+            <TextBody grey>{data[pageMapInfos].fields.commentair}</TextBody>
           </Description>
           <SpaceBetweenContainer>
             <NumeralInformation>
               <TextBody bold>Distance</TextBody>
-              <Title>{pageMapInfos.fields.longueur} km</Title>
+              <Title>{data[pageMapInfos].fields.longueur} km</Title>
             </NumeralInformation>
             <NumeralInformation>
               <TextBody bold>Temps moyen</TextBody>
@@ -107,15 +107,11 @@ const PageMap = ({ className, pageMapInfos, closePageCard }: PageMapProps) => {
             </NumeralInformation>
           </SpaceBetweenContainer>
         </MapInfos>
-        <Mapbox pageMapInfos={pageMapInfos} isWater={isWaterMap} isLight={true}/>
+        <Mapbox pageMapInfos={data[pageMapInfos]} isWater={isWaterMap} isLight={true}/>
         <CardFooter>
           <SpaceBetweenContainer>
             <TextBody>Afficher les points d'eau</TextBody>
-            <Toggle
-              id={"water"}
-              onChange={handleWater}
-              checked={isWaterMap}
-            />
+            <Toggle id={"water"} onChange={handleWater} checked={isWaterMap} />
           </SpaceBetweenContainer>
           <SpaceBetweenContainer>
             <TextBody>Afficher les lampadaires</TextBody>
