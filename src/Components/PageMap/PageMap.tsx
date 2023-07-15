@@ -11,7 +11,7 @@ type PageMapProps = {
   pageMapInfos: number;
   closePageCard: () => void;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  data: any
+  data: any;
 };
 
 const StyledPageMap = styled.div`
@@ -64,24 +64,23 @@ const CardFooter = styled.div`
   gap: 8px;
 `;
 
-const PageMap = ({ className, pageMapInfos, data, closePageCard }: PageMapProps) => {
+const PageMap = ({
+  className,
+  pageMapInfos,
+  data,
+  closePageCard,
+}: PageMapProps) => {
   const [isWaterMap, setIsWaterMap] = useState(false);
   const [isLightMap, setIsLightMap] = useState(false);
 
   const handleToggle = (toggleId: "water" | "light") => {
     if (toggleId === "water") {
       setIsWaterMap(!isWaterMap);
-      console.log("water", isWaterMap);
     }
 
     if (toggleId === "light") {
       setIsLightMap(!isLightMap);
-      console.log("light", isLightMap);
     }
-  };
-
-  const handleWater = () => {
-    setIsWaterMap(!isWaterMap);
   };
 
   return (
@@ -107,20 +106,28 @@ const PageMap = ({ className, pageMapInfos, data, closePageCard }: PageMapProps)
             </NumeralInformation>
           </SpaceBetweenContainer>
         </MapInfos>
-        <Mapbox pageMapInfos={data[pageMapInfos]} isWater={isWaterMap} isLight={true}/>
+        <Mapbox
+          pageMapInfos={data[pageMapInfos]}
+          isWater={isWaterMap}
+          isLight={true}
+        />
         <CardFooter>
           <SpaceBetweenContainer>
             <TextBody>Afficher les points d'eau</TextBody>
-            <Toggle id={"water"} onChange={handleWater} checked={isWaterMap} />
+            <Toggle
+              id={"water"}
+              onChange={() => handleToggle("water")}
+              checked={isWaterMap}
+            />
           </SpaceBetweenContainer>
-          <SpaceBetweenContainer>
+          {/* <SpaceBetweenContainer>
             <TextBody>Afficher les lampadaires</TextBody>
             <Toggle
               id={"light"}
               onChange={() => handleToggle("light")}
               checked={isLightMap}
             />
-          </SpaceBetweenContainer>
+          </SpaceBetweenContainer> */}
         </CardFooter>
       </Container>
     </StyledPageMap>

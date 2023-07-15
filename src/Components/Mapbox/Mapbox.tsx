@@ -39,7 +39,7 @@ const WaterMarkers = styled.img`
 `;
 
 
-const Mapbox = ({ className, pageMapInfos }: MapBoxProps) => {
+const Mapbox = ({ className, pageMapInfos, isWater }: MapBoxProps) => {
   const lng = pageMapInfos.fields.geo_point_2d[0];
   const lat = pageMapInfos.fields.geo_point_2d[1];
   const zoom = 15;
@@ -92,7 +92,7 @@ const Mapbox = ({ className, pageMapInfos }: MapBoxProps) => {
         mapStyle="mapbox://styles/mapbox/streets-v12"
       >
         {markers}
-        {waterMarkers}
+        {isWater && waterMarkers}
         <NavigationControl />
       </Map>
     </MapContainer>
