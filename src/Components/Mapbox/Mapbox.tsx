@@ -1,14 +1,17 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import Map, { Marker, NavigationControl } from "react-map-gl";
 import { useMemo } from "react";
-import data from "../../data/runningData.json";
-import { DataType } from "../../data/dataType";
+import { DataType } from "../../data/runningDataType";
+import waterData from "../../data/waterData.json";
+import drop from "../../assets/icons/drop.png"
 
 const token = import.meta.env.VITE_MAP;
 
 type MapBoxProps = {
   className?: string;
   pageMapInfos: DataType;
+  isWater: boolean;
+  isLight: boolean;
 };
 
 const MapContainer = styled.div`
@@ -17,7 +20,7 @@ const MapContainer = styled.div`
   overflow: hidden;
 `;
 
-const MarkerNumber = styled.div<{ isStart?: boolean }>`
+const MarkerNumber = styled.div`
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -28,21 +31,15 @@ const MarkerNumber = styled.div<{ isStart?: boolean }>`
   align-items: center;
   font-weight: 700;
   font-size: 12px;
-
-  ${({ isStart }) =>
-    isStart &&
-    css`
-      border-radius: 0;
-      width: auto;
-      padding: 0 8px;
-      z-index: 9;
-      border-radius: 4px;
-    `}
 `;
 
-const Mapbox = ({ className, pageMapInfos }: MapBoxProps) => {
-  console.log(pageMapInfos);
+const WaterMarkers = styled.img`
+  width: 20px;
+  height: 20px;
+`;
 
+
+const Mapbox = ({ className, pageMapInfos }: MapBoxProps) => {
   const lng = pageMapInfos.fields.geo_point_2d[0];
   const lat = pageMapInfos.fields.geo_point_2d[1];
   const zoom = 15;
@@ -57,16 +54,29 @@ const Mapbox = ({ className, pageMapInfos }: MapBoxProps) => {
             longitude={coordinates[0]}
             latitude={coordinates[1]}
           >
-            {index === data[0].fields.geo_shape.coordinates.length - 1 ? (
-              <MarkerNumber isStart>Départ</MarkerNumber>
-            ) : (
-              <MarkerNumber>{index + 1}</MarkerNumber>
-            )}
+            <MarkerNumber>{index}</MarkerNumber>
           </Marker>
         )
       ),
     [pageMapInfos.fields.geo_shape.coordinates]
   );
+
+  const waterMarkers = useMemo(() => {
+    return waterData.map((water, index) => {
+      {
+        return (
+          <Marker
+            key={`${water.geo_point_2d.lat}${index}`}
+            longitude={water.geo_point_2d.lon}
+            latitude={water.geo_point_2d.lat}
+          >
+            <WaterMarkers src={drop} alt="" />
+          </Marker>
+        );
+      }
+    });
+  }, []);
+
 
   return (
     <MapContainer className={className}>
@@ -82,6 +92,7 @@ const Mapbox = ({ className, pageMapInfos }: MapBoxProps) => {
         mapStyle="mapbox://styles/mapbox/streets-v12"
       >
         {markers}
+        {waterMarkers}
         <NavigationControl />
       </Map>
     </MapContainer>

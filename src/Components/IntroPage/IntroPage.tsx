@@ -22,8 +22,6 @@ const Logo = styled.img`
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const IntroPage = forwardRef<HTMLDivElement, any>((_props, ref) => {
-    console.log(ref);
-    
   return (
     <StyledIntroPage ref={ref}>
       <Logo src={logo} />

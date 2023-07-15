@@ -1,0 +1,1808 @@
+[
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Parc Zoologique",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.347083462417814,
+                    47.73339252441281
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.347083462417814,
+            "lat": 47.73339252441281
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Parc Zoologique",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.352037762940098,
+                    47.73551853954231
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.352037762940098,
+            "lat": 47.73551853954231
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Parc Zoologique",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.351846855421567,
+                    47.73700759428508
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.351846855421567,
+            "lat": 47.73700759428508
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Parc Zoologique",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.349666127878994,
+                    47.73401841950488
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.349666127878994,
+            "lat": 47.73401841950488
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Rond point",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.351292974655407,
+                    47.73805601350353
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.351292974655407,
+            "lat": 47.73805601350353
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Square Gluck",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.317890827616191,
+                    47.75742019812738
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.317890827616191,
+            "lat": 47.75742019812738
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Service des Eaux, devant le puits PHH2",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.295754016905446,
+                    47.75445672090703
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.2957540169054464,
+            "lat": 47.75445672090703
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Square Ste Genevieve",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.346895231145563,
+                    47.749449833093124
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.346895231145563,
+            "lat": 47.749449833093124
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "All\u00e9e de la Parfaite Harmonie",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.342024239310847,
+                    47.74548381393978
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.342024239310847,
+            "lat": 47.74548381393978
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Place de la Libert\u00e9",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.341174431969067,
+                    47.75180014258855
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.341174431969067,
+            "lat": 47.75180014258855
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Place St Fridolin",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.329551626692921,
+                    47.75482100065317
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.329551626692921,
+            "lat": 47.75482100065317
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Cimeti\u00e8re Central",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.341299679150359,
+                    47.762469844752246
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.341299679150359,
+            "lat": 47.762469844752246
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": null,
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.340369546805732,
+                    47.75476333363382
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.340369546805732,
+            "lat": 47.75476333363382
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": null,
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.317882102222542,
+                    47.74461013963801
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.3178821022225415,
+            "lat": 47.74461013963801
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": null,
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.316764382758226,
+                    47.757413473291386
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.316764382758226,
+            "lat": 47.757413473291386
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": null,
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.341105500984093,
+                    47.75590209994785
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.341105500984093,
+            "lat": 47.75590209994785
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "kiosque",
+        "localisati": null,
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.32394858087931,
+                    47.737792863584744
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.32394858087931,
+            "lat": 47.737792863584744
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "Devant la cr\u00e8che 47 rue d'Agen",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.337180381510847,
+                    47.76147276960493
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.337180381510847,
+            "lat": 47.76147276960493
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "Devant le 12 rue des Fleurs",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.33640234089651,
+                    47.745408582206196
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.33640234089651,
+            "lat": 47.745408582206196
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "Parking",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.333154594339946,
+                    47.744135135609035
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.333154594339946,
+            "lat": 47.744135135609035
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "Gymase Andr\u00e9 Erbland",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.328240998480407,
+                    47.75351626059697
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.328240998480407,
+            "lat": 47.75351626059697
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "estivale",
+        "localisati": "Coin bd de l'Europe- rue de la Moselle",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.341152918805366,
+                    47.749227682435
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.341152918805366,
+            "lat": 47.749227682435
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "estivale",
+        "localisati": "Coin rue du Sauvage-bd de l'Europe",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.338819695467192,
+                    47.749446058852634
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.338819695467192,
+            "lat": 47.749446058852634
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "estivale",
+        "localisati": "Derri\u00e8re groupe scolaire Matisse",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.296589125721574,
+                    47.73572962882634
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.296589125721574,
+            "lat": 47.73572962882634
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Parc Zoologique",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.347645618313812,
+                    47.734602772739386
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.347645618313812,
+            "lat": 47.734602772739386
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Parc Zoologique",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.351700950131275,
+                    47.73547184712429
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.351700950131275,
+            "lat": 47.73547184712429
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Parc Zoologique",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.352005225384282,
+                    47.736919359018096
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.352005225384282,
+            "lat": 47.736919359018096
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Parc Zoologique",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.352291903291636,
+                    47.73656850192763
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.352291903291636,
+            "lat": 47.73656850192763
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Parc Zoologique",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.350814219382605,
+                    47.736274735153955
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.350814219382605,
+            "lat": 47.736274735153955
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Parc Zoologique",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.348361980653407,
+                    47.73440491255958
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.348361980653407,
+            "lat": 47.73440491255958
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Cimeti\u00e8re de Dornach",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.307924923140291,
+                    47.74116228693463
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.307924923140291,
+            "lat": 47.74116228693463
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Canal couvert devant le 8 quai de la Cloche",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.328905394424057,
+                    47.75108312768834
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.328905394424057,
+            "lat": 47.75108312768834
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "A proximit\u00e9 du chalet entr\u00e9e du TANNENWALD",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.355295588771048,
+                    47.734424368407566
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.355295588771048,
+            "lat": 47.734424368407566
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Square intersection rue de Belfort",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.310810902809819,
+                    47.74693184985806
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.310810902809819,
+            "lat": 47.74693184985806
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Square Braun",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.316153104784308,
+                    47.744987968688655
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.316153104784308,
+            "lat": 47.744987968688655
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "Devant les 14-16 Place de la R\u00e9union, \u00e0 2m du banc",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.338158646500345,
+                    47.747022683159784
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.338158646500345,
+            "lat": 47.747022683159784
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Devant le lyc\u00e9e professionnel",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.319953218390354,
+                    47.747416737000485
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.319953218390354,
+            "lat": 47.747416737000485
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Canal couvert",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.329639430119495,
+                    47.750800403576974
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.329639430119495,
+            "lat": 47.750800403576974
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Square Eug\u00e8ne Schmitlin",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.334866616424777,
+                    47.75283347201429
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.334866616424777,
+            "lat": 47.75283347201429
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "canal couvert, en face du 29 rue du Siphon",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.328922539529546,
+                    47.748729543357776
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.328922539529546,
+            "lat": 47.748729543357776
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "Square, terrain de Basket",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.327416996270074,
+                    47.74876565186704
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.327416996270074,
+            "lat": 47.74876565186704
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Face au N\u00b010 GRIMONT",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.333714880688973,
+                    47.77139083188571
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.333714880688973,
+            "lat": 47.77139083188571
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": null,
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.349953836945119,
+                    47.75290153970582
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.349953836945119,
+            "lat": 47.75290153970582
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": null,
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.323863023456129,
+                    47.747898169292725
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.323863023456129,
+            "lat": 47.747898169292725
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "kiosque",
+        "localisati": "Devant la patinoire",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.319956800309847,
+                    47.73571350884825
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.319956800309847,
+            "lat": 47.73571350884825
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "Devant le 60 avenue Robert Schuman",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.347421692978934,
+                    47.75414233582031
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.347421692978934,
+            "lat": 47.75414233582031
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "Square Edmond Blum",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.354009401257585,
+                    47.755208967181666
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.354009401257585,
+            "lat": 47.755208967181666
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "L'int\u00e9rieur du groupe scolaire",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.2958195453629,
+                    47.73597867937171
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.2958195453629,
+            "lat": 47.73597867937171
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "Devant le 3 Place de la R\u00e9publique",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.341532738810237,
+                    47.746100489606135
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.341532738810237,
+            "lat": 47.746100489606135
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Dans regard",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.293911278074259,
+                    47.74695261418796
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.293911278074259,
+            "lat": 47.74695261418796
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "Face au 4 Place de la Paix",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.335228658010599,
+                    47.74435136840237
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.335228658010599,
+            "lat": 47.74435136840237
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Square Steinbach",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.337986647810925,
+                    47.74497947089979
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.337986647810925,
+            "lat": 47.74497947089979
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Parc Salvator",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.345150139961393,
+                    47.74867465716531
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.345150139961393,
+            "lat": 47.74867465716531
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Square du 14 Juillet",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.346520426502829,
+                    47.75219618892114
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.346520426502829,
+            "lat": 47.75219618892114
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Cimeti\u00e8re de Bourtzwiller",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.328800757156237,
+                    47.77446183166812
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.3288007571562375,
+            "lat": 47.77446183166812
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "estivale",
+        "localisati": "Place Francklin en face du n 48",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.332983745366439,
+                    47.751268389777145
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.332983745366439,
+            "lat": 47.751268389777145
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "estivale",
+        "localisati": "Square de la bourse en face de n 12",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.342883551430859,
+                    47.74485278657267
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.342883551430859,
+            "lat": 47.74485278657267
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "estivale",
+        "localisati": "16 place de la Reunion",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.338158646500345,
+                    47.747022683159784
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.338158646500345,
+            "lat": 47.747022683159784
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "estivale",
+        "localisati": "Square Eug\u00e8ne Schmitlin",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.334866616424777,
+                    47.75283347201429
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.334866616424777,
+            "lat": 47.75283347201429
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Cimeti\u00e8re de Bourtzwiller",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.329728692215435,
+                    47.774174791354724
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.329728692215435,
+            "lat": 47.774174791354724
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Parc Zoologique",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.347684562220032,
+                    47.733456182826636
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.347684562220032,
+            "lat": 47.733456182826636
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "Enclos des giraffes",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.352280618839171,
+                    47.73450851342874
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.352280618839171,
+            "lat": 47.73450851342874
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Parc Zoologique",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.351978530092326,
+                    47.73703734981056
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.351978530092326,
+            "lat": 47.73703734981056
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Parc Zoologique",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.351849427514796,
+                    47.73691633393055
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.351849427514796,
+            "lat": 47.73691633393055
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Cimeti\u00e8re Nord",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.337925881883607,
+                    47.77786421993439
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.337925881883607,
+            "lat": 47.77786421993439
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Cimeti\u00e8re Nord",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.336766419206135,
+                    47.77770681375804
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.336766419206135,
+            "lat": 47.77770681375804
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Service des eaux, jardin",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.298060463744245,
+                    47.75537699470242
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.298060463744245,
+            "lat": 47.75537699470242
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Service des Eaux, jardin",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.297908906039561,
+                    47.7553424655207
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.297908906039561,
+            "lat": 47.7553424655207
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Cimeti\u00e8re de Dornach",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.309504352230086,
+                    47.741659127221894
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.3095043522300855,
+            "lat": 47.741659127221894
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Terrain de Basket",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.328679319918093,
+                    47.74441911264121
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.328679319918093,
+            "lat": 47.74441911264121
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Square, r\u00e9servoir",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.34535045274645,
+                    47.73676634902248
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.34535045274645,
+            "lat": 47.73676634902248
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Place du Rattachement",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.320823056788026,
+                    47.76963810442827
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.320823056788026,
+            "lat": 47.76963810442827
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Square Baumann",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.321830097229983,
+                    47.76966079377797
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.321830097229983,
+            "lat": 47.76966079377797
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Place Fran\u00e7ois Vogel",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.320073392857687,
+                    47.75154731260512
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.320073392857687,
+            "lat": 47.75154731260512
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "Gare, arriv\u00e9e",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.342465838834638,
+                    47.742389930910804
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.342465838834638,
+            "lat": 47.742389930910804
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": null,
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.296861224373583,
+                    47.733506770066946
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.296861224373583,
+            "lat": 47.733506770066946
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "7 rue du Raisin",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.336045467366123,
+                    47.74630317907053
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.336045467366123,
+            "lat": 47.74630317907053
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "Parc Brossolette",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.33387041072132,
+                    47.77049900817793
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.33387041072132,
+            "lat": 47.77049900817793
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "Devant le 13 Rue du Sauvage, c\u00f4t\u00e9 Passage du Th\u00e9\u00e2tre",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.340459124476126,
+                    47.746938505780264
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.340459124476126,
+            "lat": 47.746938505780264
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Ecole cour Lorraine",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.334580262947288,
+                    47.748263136193636
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.334580262947288,
+            "lat": 47.748263136193636
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "normale",
+        "localisati": "Square",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.326401785105179,
+                    47.773983621978736
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.326401785105179,
+            "lat": 47.773983621978736
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "Bouche_a_Boire",
+        "localisati": "Coll\u00e8ge Fran\u00e7ois Villon",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.31370665911518,
+                    47.752585517278575
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.31370665911518,
+            "lat": 47.752585517278575
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "robinet",
+        "localisati": "Cimeti\u00e8re Central",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.343033300912202,
+                    47.76443386333751
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.343033300912202,
+            "lat": 47.76443386333751
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "estivale",
+        "localisati": "Parc Salvator, cot\u00e9 du bassin",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.345114925408028,
+                    47.74868675382042
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.345114925408028,
+            "lat": 47.74868675382042
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "estivale",
+        "localisati": "18 rue Merci\u00e8re",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.339537724720874,
+                    47.74747512494009
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.339537724720874,
+            "lat": 47.74747512494009
+        }
+    },
+    {
+        "code_insee": "68224",
+        "com_nom": "Mulhouse",
+        "type": "estivale",
+        "localisati": "Sortie de la gare",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    7.342465838834638,
+                    47.742389930910804
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 7.342465838834638,
+            "lat": 47.742389930910804
+        }
+    }
+]
