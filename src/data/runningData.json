@@ -8,6 +8,7 @@
             ],
             "commentair": "Parcours en zone verte mixte avec un l\u00e9ger d\u00e9nivel\u00e9. L'aller se fait le long de l'eau et le retour par la for\u00eat avant de rejoindre la plaine sportive de l'Ill",
             "longueur": 6.4,
+            "niveau": "Moyen",
             "plan": "https:\/\/eu.ftp.opendatasoft.com\/mulhouse\/SPORT\/Mulhouse-Running-Philosophes.pdf",
             "gpx": "https:\/\/eu.ftp.opendatasoft.com\/mulhouse\/SPORT\/Circuit-Philosophes-Mulhouse.gpx",
             "geo_shape": {
@@ -681,6 +682,7 @@
             ],
             "commentair": "Circuit exclusivement sur chemins et sentiers en for\u00eat, s'adresse \u00e0 tout public poss\u00e9dant un minimum de condition physique",
             "longueur": 3.4,
+            "niveau": "Tout public",
             "plan": "https:\/\/eu.ftp.opendatasoft.com\/mulhouse\/SPORT\/Mulhouse-Running-Tannen.pdf",
             "gpx": "https:\/\/eu.ftp.opendatasoft.com\/mulhouse\/SPORT\/Circuit-Tannen-Mulhouse.gpx",
             "geo_shape": {
@@ -1202,6 +1204,7 @@
             ],
             "commentair": "Circuit qui serpente exclusivement en zone urbaine. Il est accessible au plus grand nombre, du d\u00e9butant marcheur au runneur confirm\u00e9",
             "longueur": 6.5,
+            "niveau": "Tout public",
             "plan": "https:\/\/eu.ftp.opendatasoft.com\/mulhouse\/SPORT\/Mulhouse-Running-City.pdf",
             "gpx": "https:\/\/eu.ftp.opendatasoft.com\/mulhouse\/SPORT\/Circuit-City-Mulhouse.gpx",
             "geo_shape": {
@@ -1931,6 +1934,7 @@
             ],
             "commentair": "Parcours qui comprend quelques variations de niveau et fait d\u00e9couvrir le magnifique quartier du Rebberg avec ses maisons de caract\u00e8re",
             "longueur": 6,
+            "niveau": "Tout public",
             "plan": "https:\/\/eu.ftp.opendatasoft.com\/mulhouse\/SPORT\/Mulhouse-Running-Belvedere.pdf",
             "gpx": "https:\/\/eu.ftp.opendatasoft.com\/mulhouse\/SPORT\/Circuit-Belvedere-Mulhouse.gpx",
             "geo_shape": {
@@ -2612,6 +2616,7 @@
             ],
             "commentair": "Circuit qui permet de b\u00e9n\u00e9ficier d un environnement naturel en limite de la zone urbaine. Il est accessible au plus grand nombre, du d\u00e9butant marcheur au runneur confirm\u00e9",
             "longueur": 6.1,
+            "niveau": "Tout public",
             "plan": "https:\/\/eu.ftp.opendatasoft.com\/mulhouse\/SPORT\/Mulhouse-Running-Ecluses.pdf",
             "gpx": "https:\/\/eu.ftp.opendatasoft.com\/mulhouse\/SPORT\/Circuit-Ecluses-Mulhouse.gpx",
             "geo_shape": {

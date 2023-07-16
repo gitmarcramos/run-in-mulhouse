@@ -1,15 +1,15 @@
 import styled from "styled-components";
 import Map, { Marker, NavigationControl } from "react-map-gl";
 import { useMemo } from "react";
-import { DataType } from "../../data/runningDataType";
+import { CircuitType } from "../../data/runningDataType";
 import waterData from "../../data/waterData.json";
-import drop from "../../assets/icons/water.svg"
+import drop from "../../assets/icons/water.svg";
 
 const token = import.meta.env.VITE_MAP;
 
 type MapBoxProps = {
   className?: string;
-  pageMapInfos: DataType;
+  circuitIndex: CircuitType;
   isWater: boolean;
   isLight: boolean;
 };
@@ -38,27 +38,28 @@ const WaterMarkers = styled.img`
   height: 20px;
 `;
 
-
-const Mapbox = ({ className, pageMapInfos, isWater }: MapBoxProps) => {
-  const lng = pageMapInfos.fields.geo_point_2d[0];
-  const lat = pageMapInfos.fields.geo_point_2d[1];
+const Mapbox = ({ className, circuitIndex, isWater }: MapBoxProps) => {
+  const lng = circuitIndex.fields.geo_point_2d[0];
+  const lat = circuitIndex.fields.geo_point_2d[1];
   const zoom = 15;
 
   const markers = useMemo(
     () =>
-      pageMapInfos.fields.geo_shape.coordinates.map(
+      circuitIndex.fields.geo_shape.coordinates.map(
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        (coordinates: any, index: number) => (
-          <Marker
-            key={index}
-            longitude={coordinates[0]}
-            latitude={coordinates[1]}
-          >
-            <MarkerNumber>{index}</MarkerNumber>
-          </Marker>
-        )
+        (coordinates: any, index: number) => {
+          return (
+            <Marker
+              key={index}
+              longitude={coordinates[0]}
+              latitude={coordinates[1]}
+            >
+              <MarkerNumber>{index}</MarkerNumber>
+            </Marker>
+          );
+        }
       ),
-    [pageMapInfos.fields.geo_shape.coordinates]
+    [circuitIndex.fields.geo_shape.coordinates]
   );
 
   const waterMarkers = useMemo(() => {
@@ -76,7 +77,6 @@ const Mapbox = ({ className, pageMapInfos, isWater }: MapBoxProps) => {
       }
     });
   }, []);
-
 
   return (
     <MapContainer className={className}>

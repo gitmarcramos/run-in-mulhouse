@@ -5,13 +5,13 @@ import TextBody from "../../Styles/Fonts/TextBody";
 import Mapbox from "../Mapbox/Mapbox";
 import Toggle from "../Toggle/Toggle";
 import { useState } from "react";
+import { GeneralRunningDataType } from "../../data/runningDataType";
 
 type PageMapProps = {
   className?: string;
-  pageMapInfos: number;
+  circuitIndex: number;
   closePageCard: () => void;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  data: any;
+  data: GeneralRunningDataType;
 };
 
 const StyledPageMap = styled.div`
@@ -66,7 +66,7 @@ const CardFooter = styled.div`
 
 const PageMap = ({
   className,
-  pageMapInfos,
+  circuitIndex,
   data,
   closePageCard,
 }: PageMapProps) => {
@@ -92,22 +92,22 @@ const PageMap = ({
         </BackToMaps>
         <MapInfos>
           <Description>
-            <Title uppercase>{data[pageMapInfos].fields.nom_circui}</Title>
-            <TextBody grey>{data[pageMapInfos].fields.commentair}</TextBody>
+            <Title uppercase>{data[circuitIndex].fields.nom_circui}</Title>
+            <TextBody grey>{`${data[circuitIndex].fields.commentair}.`}</TextBody>
           </Description>
           <SpaceBetweenContainer>
             <NumeralInformation>
               <TextBody bold>Distance</TextBody>
-              <Title>{data[pageMapInfos].fields.longueur} km</Title>
+              <Title>{data[circuitIndex].fields.longueur} km</Title>
             </NumeralInformation>
             <NumeralInformation>
-              <TextBody bold>Temps moyen</TextBody>
-              <Title>XXXX minutes</Title>
+              <TextBody bold>Niveau</TextBody>
+              <Title>{data[circuitIndex].fields.niveau}</Title>
             </NumeralInformation>
           </SpaceBetweenContainer>
         </MapInfos>
         <Mapbox
-          pageMapInfos={data[pageMapInfos]}
+          circuitIndex={data[circuitIndex]}
           isWater={isWaterMap}
           isLight={true}
         />
@@ -120,14 +120,6 @@ const PageMap = ({
               checked={isWaterMap}
             />
           </SpaceBetweenContainer>
-          {/* <SpaceBetweenContainer>
-            <TextBody>Afficher les lampadaires</TextBody>
-            <Toggle
-              id={"light"}
-              onChange={() => handleToggle("light")}
-              checked={isLightMap}
-            />
-          </SpaceBetweenContainer> */}
         </CardFooter>
       </Container>
     </StyledPageMap>

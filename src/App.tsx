@@ -76,7 +76,7 @@ const App = () => {
             </Cards>
             {isCardOpen && (
               <PageMap
-                pageMapInfos={choosenCardIndex}
+                circuitIndex={choosenCardIndex}
                 closePageCard={closePageCard}
                 data={runningData}
               />
